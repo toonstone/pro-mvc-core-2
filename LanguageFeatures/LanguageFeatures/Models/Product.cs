@@ -13,6 +13,8 @@ namespace LanguageFeatures.Models
 
 		public bool? InStock { get; }
 
+
+
 		public Product(bool stock = true)
 		{
 			InStock = stock;
